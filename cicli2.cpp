@@ -8,14 +8,9 @@ ESERCIZIO DI MOLTIPLICAZIONE SENZA OPERATORE *
 */
 
 int main(){
-    int x;
-    int y;
+    int x=5;
+    int y=5;
     int result = 0;
-    cout<<"ESEMPIO MOLTIPLICAZIONE USANDO L'ADDIZIONE \n";
-    cout<<"Iserisci il primo fattore:\t";
-    cin>>x;
-    cout<<"Inserisci il secondo fattore:\t";
-    cin>>y;
     for (;y>0;y--)
     {
         result=result + x;
