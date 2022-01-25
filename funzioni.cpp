@@ -8,7 +8,9 @@ int max (int a, int b){
     }
     else
         return b;
-    
+}
+void stampa(int m){
+    cout << m<<endl;
 }
 int main(){
     int input1, input2,input3,input4;
@@ -20,8 +22,7 @@ int main(){
     cin>>input3;
     cout<<"Inserisci input 4"<<endl;
     cin>>input4;
-
-    cout << max(max(input1,input2),max(input3,input4));
+    stampa (max(max(input1,input2),max(input3,input4)));
     return 0;
 }
 
